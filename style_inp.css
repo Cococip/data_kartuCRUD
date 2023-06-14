@@ -1,0 +1,128 @@
+body {
+    background-color: c1c1c1;
+    background-size:45% 16%;
+    margin:auto;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-image:url("");
+    background-position: center;
+}
+
+.container{
+    background-color: #f1f1f1;
+    padding: 80px;
+}
+
+.menu {
+font-family:tahoma;
+font-weight:bold;
+height: 100px;
+width: 100%;
+background: lightgrey;
+border-radius:0px;
+font-size:18px;
+position: relative;
+}
+
+.menu ul {
+margin: 10px;
+padding: 0px;
+background: none;
+display:block;
+float:right;
+}
+
+.menu ul li{
+    list-style:none;
+    display:inline-block;
+}
+
+.menu ul li a {
+    display:block;
+    text-decoration:none;
+    padding: 10px;
+    color: #000;
+}
+
+select[type=option_kc]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+select[type=option_jeniscetak]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+select[type=text_kabupaten]{
+    width: 52.3%;
+    padding: 10px;
+    margin-left: 43.8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius:0px;
+    border: 1px solid #000;
+    background-color: lightgrey;
+    color: black;
+    font-size: 13px;
+}
+
+select[type=text_nomorkartu]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+select[type=text_namapeserta]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+select[type=text_jumlahcetak]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+select[type=text_penerima]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+select[type=text_hubungan]{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+input[type=date]{
+width: 40%;
+padding: 5px;
+margin-left: 100px;
+margin-bottom: 3px;
+margin-top: 3px;
+border: 3px solid #d4d4d4;
+border-radius: 4px;
+color: black;
+font-size: 16px;
+}
+
+label{
+color: black;
+font-size: 17px;
+font-weight: bold;
+margin-left: px;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 400px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
